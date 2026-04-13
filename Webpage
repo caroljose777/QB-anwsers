@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4-Section Layout</title>
+    <style>
+        /* Reset margins and set full height */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        /* Create a 2x2 Grid */
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* 2 equal columns */
+            grid-template-rows: 1fr 1fr;    /* 2 equal rows */
+            height: 100vh;                  /* Full viewport height */
+        }
+
+        /* Center content and add styling */
+        .section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+        }
+
+        /* Individual Background Colors */
+        .box1 { background-color: #FF5733; } /* Red-Orange */
+        .box2 { background-color: #33FF57; } /* Green */
+        .box3 { background-color: #3357FF; } /* Blue */
+        .box4 { background-color: #F333FF; } /* Purple */
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="section box1"><h1>Section 1</h1></div>
+        <div class="section box2"><h1>Section 2</h1></div>
+        <div class="section box3"><h1>Section 3</h1></div>
+        <div class="section box4"><h1>Section 4</h1></div>
+    </div>
+
+</body>
+</html>
