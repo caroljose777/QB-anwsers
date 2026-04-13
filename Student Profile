@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Profile</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; }
+        img { border-radius: 50%; width: 150px; height: 150px; object-fit: cover; }
+        .header { text-align: center; margin-bottom: 30px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <!-- Photo -->
+        <img src="student-photo.jpg" alt="Student Photo">
+        <!-- Name -->
+        <h1>Alex Johnson</h1>
+    </div>
+
+    <hr>
+
+    <h3>Course Details</h3>
+    <p><strong>Program:</strong> Bachelor of Science in Computer Science</p>
+    <p><strong>University:</strong> Tech Institute of Technology</p>
+    <p><strong>Year:</strong> 3rd Year (Junior)</p>
+
+    <h3>Skills</h3>
+    <!-- Skills using list tags -->
+    <ul>
+        <li>Web Development (HTML, CSS, JS)</li>
+        <li>Python Programming</li>
+        <li>Data Analysis</li>
+        <li>UI/UX Design</li>
+    </ul>
+
+    <h3>Contact Details</h3>
+    <!-- Contact details with links -->
+    <p>Email: <a href="mailto:alex.j@example.com">alex.j@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com" target="_blank">://linkedin.com</a></p>
+    <p>GitHub: <a href="https://github.com" target="_blank">://github.com</a></p>
+
+</body>
+</html>
