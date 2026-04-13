@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">City College</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Departments</a></li>
+            <li><a href="#">Admissions</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- 2. Image Banner -->
+    <header class="banner">
+        <div class="banner-text">
+            <h1>Welcome to City College</h1>
+            <p>Empowering minds for a brighter future.</p>
+        </div>
+    </header>
+
+    <!-- 3. Department Section using Lists -->
+    <section class="departments">
+        <h2>Our Departments</h2>
+        <ul>
+            <li><strong>Faculty of Engineering</strong>
+                <ul>
+                    <li>Computer Science</li>
+                    <li>Mechanical Engineering</li>
+                    <li>Civil Engineering</li>
+                </ul>
+            </li>
+            <li><strong>Faculty of Science</strong>
+                <ul>
+                    <li>Physics</li>
+                    <li>Mathematics</li>
+                    <li>Biology</li>
+                </ul>
+            </li>
+            <li><strong>Faculty of Arts</strong>
+                <ul>
+                    <li>English Literature</li>
+                    <li>History</li>
+                    <li>Philosophy</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <!-- 4. Footer with Contact Info -->
+    <footer class="footer">
+        <div class="contact-info">
+            <h3>Contact Us</h3>
+            <p>Address: 123 Education Lane, Knowledge City</p>
+            <p>Email: info@citycollege.edu</p>
+            <p>Phone: +1 (555) 012-3456</p>
+        </div>
+        <p class="copyright">&copy; 2024 City College. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
